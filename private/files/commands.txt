@@ -1,0 +1,500 @@
+  135  ls
+  136  cat someText someMoreText > combined
+  137  cat combined
+  138  clear
+  139  ls
+  140  cat someMoreText
+  141  cat someText
+  142  cat > someMoreText2
+  143  cat someMoreText2
+  144  cat someText someMoreText2 > combined2
+  145  cat combined2
+  146  rm combined
+  147  rm someMoreText
+  148  ls
+  149  mv someMoreText2 someMoreText
+  150  mv combined2 combined
+  151  ls
+  152  cat combined
+  153  touch longText.txt
+  154  ls
+  155  less longText.txt 
+  156  head -3 longText.txt 
+  157  head -1 longText.txt 
+  158  tail -f /private/var/log/system.log
+  159  tail -f longText.txt 
+  160  clar
+  161  clear
+  162  man ls
+  163  man less
+  164  ls
+  165  cat combined | less
+  166  ls
+  167  ls *.txt
+  168  ls
+  169  ls new*.txt
+  170  ls new*.txt ls * ls *n*
+  171  ls
+  172  ls *
+  173  ls *n*
+  174  ls *x*
+  175  ls new*.txt
+  176  find . -name "*.txt" -print
+  177  ls
+  178  grep binary *.txt
+  179  ls
+  180  grep binary
+  181  mv combined combined.txt
+  182  ls
+  183  grep binary *.txt
+  184  find ~ -name "*.txt" -print | grep README
+  185  clear
+  186  echo $SEASON
+  187  echo $SEASON
+  188  find ~ -name "*" -print | grep "\d+"
+  189  clear
+  190  ls
+  191  cd Documents/
+  192  ls
+  193  cd Makers_Academy/
+  194  ls
+  195  cd precourse/
+  196  cd command_line/
+  197  ls
+  198  cd SomeDir/
+  199  ls
+  200  wc longText.txt 
+  201  find ~ -name "*.txt" -print | grep README | wc -l
+  202  clear
+  203  whoami
+  204  ls -l
+  205  chmod u+x combined.txt
+  206  ls -l
+  207  chmod u-x combined.txt 
+  208  ls -l
+  209  clear
+  210  cat > hello.rb
+  211  cat hello.rb 
+  212  ruby hello.rb 
+  213  clear
+  214  irb
+  215  ./hello.rb
+  216  ls -l
+  217  chmod u+x hello.rb 
+  218  ./hello.rb
+  219  puts "Hello"
+  220  which ruby
+  221  ./hello.rb
+  222  ./hello.rb
+  223  ls
+  224  ./hello.rb
+  225  clear
+  226  head 'which irb'
+  227  head `which irb`
+  228  clear
+  229  ls /etc
+  230  clear
+  231  ls -l /etc/
+  232  env
+  233  echo $home
+  234  echo $home
+  235  echo $HOME
+  236  echo "Hiya"
+  237  echo "Hiya" > hiya.txt
+  238  ls
+  239  cat hiya.txt 
+  240  clear
+  241  echo $PATH
+  242  clear
+  243  export SEASON=winter
+  244  echo $SEASON
+  245  echo $SEASON
+  246  echo $SEASON
+  247  clear
+  248  cat ~/.bash_profile 
+  249  echo "export SEASON=winter" >> ~/.bash_profile 
+  250  cat ~/.bash_profile 
+  251  clear
+  252  ps
+  253  ps x
+  254  ps x | grep bash
+  255  ps x | grep bash | wc -l
+  256  clear
+  257  vi myFile
+  258  exit
+  259  whoami
+  260  ~
+  261  cd ~
+  262  ls
+  263  cd Documents/
+  264  ls
+  265  cd Makers_Academy/
+  266  ls
+  267  cd precourse/
+  268  ls
+  269  cd command_line/
+  270  ls
+  271  cd Challenge\
+  272  clear
+  273  ls
+  274  cd Challenge\ 1/
+  275  mkdir New
+  276  ls
+  277  touch newFile
+  278  ls
+  279  mv newFile New
+  280  ls
+  281  ls -l
+  282  clear
+  283  pwd
+  284  cd Text\ Files/
+  285  cd .
+  286  cd ..
+  287  mkdir Foo/Bar/folders
+  288  mkdir -p Foo/Bar/folders
+  289  ls
+  290  ls -l
+  291  rmdir Empty\ Folder/
+  292  ls
+  293  rmdir New
+  294  rmdir -r New
+  295  rm -r New
+  296  ls
+  297  cd Text\ Files/
+  298  ls
+  299  cp More\ text.txt Learn\ to\ code.txt
+  300  ls
+  301  head -5 Learn\ to\ code.txt 
+  302  tail -5 More\ text.txt 
+  303  clear
+  304  cat Learn\ to\ code.txt 
+  305  less Learn\ to\ code.txt 
+  306  clear
+  307  cat Learn\ to\ code.txt | grep a
+  308  touch blank.txt
+  309  ls
+  310  ls *.txt
+  311  clear
+  312  wc Learn\ to\ code.txt 
+  313  wc Less\ text.txt 
+  314  ls | grep *.txt | count
+  315  ls | grep *.txt 
+  316  ls | grep *.txt | -p
+  317  ls | grep *.txt | -print
+  318  ls | grep *.txt -print
+  319  ls | grep *.txt | wc -l
+  320  wc -l
+  321  cd Documents/
+  322  cd Makers_Academy/
+  323  cd precourse/
+  324  cd command_line/
+  325  cd Challenge\ 1/
+  326  ls
+  327  cd Te
+  328  cd Text\ Files/
+  329  ls
+  330  ls | grep *.txt | wc -l
+  331  grep *.txt | wc -l
+  332  grep *.txt
+  333  grep *.txt -print
+  334  ls *.txt
+  335  ls *.txt | wc -1
+  336  ls *.txt | wc -l
+  337  ls grep .txt | wc -l
+  338  grep .txt
+  339  cd Documents/Makers_Academy/precourse/command_line/Challenge\ 1/
+  340  ls
+  341  cd Te
+  342  cd Text\ Files/
+  343  grep *.txt | wc -l
+  344  ls | grep *.txt | wc -l
+  345  ls | grep *.txt | wc
+  346  ls grep *.txt | wc -l
+  347  cd ~
+  348  find . -name "b" -print
+  349  find . -name "b*" -print
+  350  clear
+  351  man wc
+  352  clear
+  353  printenv DAY
+  354  printenv DAY
+  355  printenv DAY
+  356  cd Documents/Makers_Academy/precourse/command_line/
+  357  ls
+  358  cd Challenge\ 1/
+  359  ls
+  360  env
+  361  export DAY=Monday
+  362  env
+  363  print DAY
+  364  echo DAY
+  365  cat DAY
+  366  clear
+  367  printenv DAY
+  368  echo "export DAY=Monday" >> ~./bash_profile
+  369  echo "export DAY=Monday" >> ~/.bash_profile
+  370  ls
+  371  cd Text\ Files/
+  372  ls
+  373  ls -l
+  374  chmod g+w More\ text.txt 
+  375  ls -l
+  376  chmod o-r More\ text.txt 
+  377  ls -l
+  378  clear
+  379  ls
+  380  cd .
+  381  cd ..
+  382  mkdir No\ Change
+  383  ls
+  384  chmod u-r No\ Change/
+  385  cd No\ Change/
+  386  ls
+  387  cd ..
+  388  ls
+  389  ls-l
+  390  ls -l
+  391  chmod u-wx No\ Change/
+  392  cd No\ Change/
+  393  chmod u+w No\ Change/
+  394  cd No\ Change/
+  395  ls -l
+  396  chmod u+rx No\ Change/
+  397  chmod U-wx No\ Change/
+  398  chmod u-wx No\ Change/
+  399  ls -l
+  400  chmod u+w No\ Change/
+  401  ls -l
+  402  cd No\ Change/
+  403  clear
+  404  echo Hello, world!
+  405  touch hello.rb
+  406  ls
+  407  echo "puts `hello, world`" > hello.rb
+  408  echo puts > hello.rb 
+  409  ruby hello.rb 
+  410  echo puts `hello, world\!` > hello.rb
+  411  echo puts `hello\, world\!` > hello.rb
+  412  echo puts `hello\,\ world\!` > hello.rb
+  413  echo puts "hello\,\ world\!" > hello.rb
+  414  ruby hello.rb 
+  415  clear
+  416  rm hello.rb 
+  417  ls
+  418  touch hello.rb
+  419  clear
+  420  clear
+  421  irb
+  422  clear
+  423  ruby hello.rb 
+  424  cd hello.rb 
+  425  clear
+  426  echo puts 'hello, world!' >> hello.rb 
+  427  ruby hello.rb 
+  428  echo puts\ 'hello, world!' >> hello.rb 
+  429  ruby hello.rb
+  430  echo 'puts "hello, world!"' >> hello.rb 
+  431  ruby hello.rb 
+  432  clear
+  433  ls
+  434  ./hello.rb
+  435  ls
+  436  ls -l
+  437  chmod u+x hello.rb 
+  438  ./hello.rb 
+  439  . /hello.rb
+  440  ls
+  441  ./hello.rb 
+  442  ./hello.rb 
+  443  clear
+  444  ps x | grep Google Chrome
+  445  ps x | grep Google\ Chrome
+  446  ps x | grep Google\ Chrome | wc -l
+  447  ps x | grep Google\ Chrome | wc -l | touch chrome.list
+  448  ls
+  449  ps x | grep Google\ Chrome | wc -l | touch chrome.txt
+  450  ls
+  451  chrome.txt
+  452  cat chrome.txt
+  453  less chrome.txt
+  454  ps x | grep Google\ Chrome | wc -l >> chrome.txt
+  455  cat chrome.txt 
+  456  rm chrome.list
+  457  ls
+  458  ps x | grep Google\ Chrome | wc -l >> chrome.list
+  459  ls
+  460  cat chrome.list 
+  461  clear
+  462  ps
+  463  ls
+  464  cd Desktop/
+  465  mkdir my/private/files
+  466  mkdir my\/private\/files
+  467  clear
+  468  mkdir -p my/private/files
+  469  mkdir -p my/public/files
+  470  ls
+  471  cd my
+  472  ls
+  473  cd private/
+  474  touch t-vars.env
+  475  ls
+  476  rm t-vars.env 
+  477  ls
+  478  cd files
+  479  touch t-vars.env
+  480  ls
+  481  echo List of env vars that begin with T \n >> t-vars.env 
+  482  l
+  483  ls
+  484  cat t-vars.env 
+  485  rm t-vars.env 
+  486  touch t-vars.env
+  487  echo "List of env vars that begin with T \n" >> t-vars.env 
+  488  cat t-vars.env 
+  489  clear
+  490  rm t-vars.env 
+  491  touch t-vars.env
+  492  echo List of env vars that begin with T \\n >> t-vars.env 
+  493  cat t-vars.env 
+  494  rm t-vars.env 
+  495  touch t-vars.env
+  496  echo List of env vars that begin with T >> t-vars.env 
+  497  cat t-vars.env 
+  498  find t*.env -print
+  499  env
+  500  env grep ^t
+  501  cd Desktop/
+  502  cd my
+  503  cd private/
+  504  ls
+  505  cd files/
+  506  ls
+  507  grep ^t env
+  508  printenv | grep ^t
+  509  env | grep ^t
+  510  env
+  511  env | grep *t
+  512  env | grep "*t"
+  513  env | grep "*t" -print
+  514  env | grep "^t" -print
+  515  env | grep "^T" -print
+  516  env | grep "^T" | -print
+  517  env | grep "^T"
+  518  env | grep "^T" > t-vars.env 
+  519  cat t-vars.env 
+  520  rm t-vars.env 
+  521  touch t-vars.env
+  522  echo List of env vars that begin with T 
+  523  echo List of env vars that begin with T >> t-vars.env 
+  524  cat t-vars.env 
+  525  env | grep "^T" >> t-vars.env 
+  526  cat t-vars.env 
+  527  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+  528  env
+  529  echo $TESTING_MAKERS
+  530  export TESTING_MAKERS=working
+  531  env
+  532  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+  533  env | grep "^T" | ls -l
+  534  env | grep "^T" | ls -l >> my/public/files/t-vars.count
+  535  env | grep "^T" | ls -l cat >> my/public/files/t-vars.count
+  536  env | grep "^T" | ls -l cat >> /Desktop/my/public/files/t-vars.count
+  537  cd ..
+  538  cd ..
+  539  cd public/
+  540  cd files/
+  541  ls
+  542  touch t-vars.count
+  543  env | grep "^T" | ls -l cat >> t-vars.count
+  544  env | grep "^T" | ls -l | cat >> t-vars.count
+  545  ls
+  546  cat t-vars.count 
+  547  env | grep "^T" | ls -lc | cat >> t-vars.count
+  548  cat t-vars.count 
+  549  rm t-vars.count 
+  550  touch t-vars.count
+  551  env | grep "^T" | ls -lc | cat >> t-vars.count
+  552  cat t-vars.count 
+  553  cat t-vars.count 
+  554  env
+  555  cat t-vars.count 
+  556  cat t-vars.count 
+  557  env | grep "^T" | ls -lc | cat > t-vars.count
+  558  cat t-vars.count 
+  559  clear
+  560  ls
+  561  cat t-vars.count 
+  562  env | grep "^T" | ls -lc
+  563  env | grep "^T" | ls -lc | cat >> test.count
+  564  ls
+  565  cat test.count 
+  566  cp test.count t-vars.count
+  567  ls
+  568  cat t-vars.count 
+  569  rm test.count 
+  570  ls -l
+  571  cd ..
+  572  cd ..
+  573  cd private/
+  574  ls
+  575  cd files/
+  576  ls
+  577  ls -l
+  578  cat t-vars.env 
+  579  ls -l
+  580  cd mod u-r g-r t-vars.env 
+  581  chmod u-r g-r t-vars.env 
+  582  chmod u-r t-vars.env 
+  583  chmod g-r t-vars.env 
+  584  ls -l
+  585  chmod o+r t-vars.env 
+  586  ls -l
+  587  chmod u+r t-vars.env 
+  588  ls -l
+  589  chmod o-r t-vars.env 
+  590  ls -l
+  591  cd ..
+  592  ls -l
+  593  ls
+  594  ls -l
+  595  chmod g-x files/
+  596  chmod o-x files/
+  597  ls -l
+  598  cd ..
+  599  cd public/
+  600  cd files/
+  601  ls
+  602  ls -l
+  603  chmod g+w t-vars.count 
+  604  chmod o+e t-vars.count 
+  605  chmod o+w t-vars.count 
+  606  ls -l
+  607  touch text-files-count.txt
+  608  ls
+  609  find ~ -name "*.txt" -print
+  610  find ~ -name "*.txt" | grep -c '^-'
+  611  find ~ -name "*.txt" -print | ls -l
+  612  find ~ -name "*.txt" -print | ls -1
+  613  find ~ -name "*.txt" -print | wc -l
+  614  find ~ -name "*.txt" -print | wc -l | cat >> text-files-count.txt 
+  615  cat text-files-count.txt 
+  616  clear
+  617  cd ..
+  618  cd ..
+  619  cd private/
+  620  cd files/
+  621  touch first-three-env.txt
+  622  cat text-files-count.txt 
+  623  find ~ -name "*.txt" -print | wc -l
+  624  clear
+  625  env | sort
+  626  env | sort | head -3
+  627  env | sort | head -3 | cat >> first-three-env.txt 
+  628  cat first-three-env.txt 
+  629  history
+  630  cd ..
+  631  cd files/
+  632  touch commands.txt
+  633  ls
+  634  history | cat >> commands.txt 
